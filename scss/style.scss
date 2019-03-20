@@ -1,26 +1,34 @@
-$primary: #3292a6;
+$primary: #1e798b;
 $primary-overlay: rgba(38, 38, 38, 0.8);
 
 body {
-  margin-top: 89px;
+  margin-top: 92px;
 }
 
 .navbar {
   box-shadow: 2px 2px 5px $primary;
   opacity: 0.9;
   background: #fff;
+  color: black;
 
   .nav-item {
+    color: black;
     font-size: 1.2rem;
     padding-right: 1.4rem;
+
+    .text-nav {
+      color: black;
+    }
   }
 }
 
 #showcase {
   position: relative;
-  background: #3292a6;
 
-  min-height: 300px;
+  background: url("/img/drawing.svg");
+  width: 100%;
+
+  min-height: 330px;
   border-bottom: none;
   /*
   .primary-overlay:before {
@@ -39,8 +47,10 @@ body {
 }
 
 #about2 {
-  background: #3292a6;
+  position: relative;
   color: white;
+
+  background: #1e798b;
 }
 
 .info-header {
@@ -74,15 +84,21 @@ body {
 }
 
 @media (max-width: 768px) {
+  #hol {
+    color: green;
+    padding-bottom: 150px;
+  }
+
   #showcase {
     position: relative;
-    background: #3292a6;
 
-    min-height: 700px;
+    background: url("/img/drawing2.svg");
+    height: 530px;
+
     border-bottom: none;
 
     h1 {
-      font-size: 3.7rem;
+      font-size: 3.5rem;
     }
     /*
     .primary-overlay:before {
@@ -102,6 +118,27 @@ body {
   .mb-resp {
     margin-bottom: 1rem;
   }
+
+  #resources-list {
+    .card {
+      height: 600px;
+    }
+
+    .card-height {
+      height: 450px;
+      border-color: blue;
+    }
+
+    .card-text {
+      height: 100%;
+      border-color: red;
+    }
+    .card-img-top {
+      border-color: red;
+      height: 90%;
+      width: 90%;
+    }
+  }
 }
 
 /////////////////////////About HTML ///////////////////////////////////
@@ -117,5 +154,89 @@ body {
   .h1 {
     font-size: 1rem;
     color: pink;
+  }
+}
+
+#resources-list {
+  .card-height1 {
+    height: 500px;
+    border-color: red;
+
+    .card-img-top {
+      height: 250px;
+    }
+  }
+
+  .card-body {
+    height: 250px;
+  }
+
+  .card-text {
+    height: 160px;
+  }
+
+  .card-height2 {
+    height: 500px;
+    border-color: purple;
+
+    .card-img-top {
+      height: 250px;
+    }
+    .card-body {
+      height: 500px;
+    }
+  }
+  .card-height3 {
+    height: 500px;
+    border-color: blue;
+
+    .card-img-top {
+      height: 250px;
+    }
+    .card-body {
+      height: 500px;
+    }
+  }
+  .card-height4 {
+    height: 500px;
+    border-color: green;
+
+    .card-img-top {
+      height: 250px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #resources-list {
+    .card-img-top {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 50%;
+      width: 50%;
+    }
+
+    .card-height1 {
+      height: 500px;
+      border-color: black;
+    }
+
+    .card-height2 {
+      height: 500px;
+      border-color: purple;
+    }
+    .card-height3 {
+      height: 500px;
+      border-color: blue;
+    }
+    .card-height4 {
+      height: 500px;
+      border-color: green;
+    }
+
+    .card-text {
+      height: 40%;
+    }
   }
 }
