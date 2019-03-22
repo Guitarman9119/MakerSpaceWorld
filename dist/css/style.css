@@ -144,6 +144,58 @@ body {
   #resources-list .card-height4 .card-img-top {
     height: 250px; }
 
+#arduino-section {
+  position: relative;
+  color: black;
+  background: #f4f4f4; }
+  #arduino-section .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    margin-top: 0px; }
+
+#rhaspberry-section {
+  position: relative;
+  color: black;
+  background: #f6f5fa; }
+  #rhaspberry-section .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    margin-top: 0px; }
+
+#makey-section {
+  position: relative;
+  color: white;
+  background: #6600cc; }
+  #makey-section .col-lg {
+    padding-top: 80px; }
+  #makey-section .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    margin-top: 0px; }
+  #makey-section .btn-outline-white {
+    color: white;
+    border: white; }
+
+#little-section {
+  position: relative;
+  color: black;
+  background: white; }
+  #little-section .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    margin-top: 0px; }
+
+#ulstyle {
+  list-style: none; }
+
 @media (max-width: 768px) {
   #resources-list .card-img-top {
     display: block;
@@ -164,4 +216,13 @@ body {
     height: 500px;
     border-color: green; }
   #resources-list .card-text {
-    height: 40%; } }
+    height: 40%; }
+  #arduino-section {
+    position: relative;
+    color: black;
+    background: #f4f4f4; }
+    #arduino-section .center-block {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 2px; } }
