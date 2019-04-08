@@ -21,7 +21,7 @@
       id="main-nav"
     >
       <div class="container">
-        <a href="#index.html" class="navbar-brand">
+        <a href="index.html" class="navbar-brand">
           <h3 class="d-inline align-middle">MakerSpaceWorld</h3>
         </a>
         <button
@@ -39,11 +39,30 @@
             <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
-            <li class="nav-item">
-              <a href="tutorials.html" class="nav-link">Tutorials</a>
-            </li>
-            <li class="nav-item">
-              <a href="resources.html" class="nav-link">Resources</a>
+
+            <li class="nav-item dropdown text-nav">
+              <a
+                class="nav-link dropdown-toggle text-nav"
+                href=""
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="electronics.html">Electronics</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="resources.html">Sites</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="coding.html">Coding</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="onlinecourses.html"
+                  >Online Courses</a
+                >
+              </div>
             </li>
           </ul>
         </div>
@@ -57,13 +76,15 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <h1 class="display-4 mt-3 pt-3">
+              <h1 class="display-4">
                 <strong>Projects</strong>
               </h1>
               <p class="lead">
                 Makerspace focus on STEAM (Science, Technology, Engineering,
                 Arts and Mathematics). This page will list all the projects
-                along with any resources needed.
+                along with any resources needed. The level and difficulty of
+                projects will vary, you need to decide the level of the current
+                students.
               </p>
             </div>
           </div>
@@ -72,51 +93,60 @@
     </section>
 
     <!-- BOXES -->
-    <section id="boxes" class="py-5">
+
+    <section id="project-list" class="py-5 text-center ">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <div class="card text-center border-primary mb-resp">
+          <!--Card 1-->
+          <div class="col text-center center-block pb-2">
+            <div class="card card-height1 " id="card1">
               <div class="card-body">
-                <h3 class="text-primary">Electronics</h3>
-                <p class="text-muted">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Eveniet, deserunt.
+                <h5 class="card-title">Electronics</h5>
+                <p class="card-text">
+                  A list of electronic projects that could be implemented in the
+                  classroom.
                 </p>
-                button
+                <a
+                  id="cardb1"
+                  href="#electronics-tutorial"
+                  class="btn btn-primary"
+                  >List</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center bg-primary text-white mb-resp">
+
+          <div class="col text-center center-block pb-2">
+            <div class="card card-height2 " id="card2">
               <div class="card-body">
-                <h3>3D Printing</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Eveniet, deserunt.
+                <h5 class="card-title">Science / Engineering</h5>
+                <p class="card-text">
+                  A list of engineering/science projects and experiments that
+                  could be implemented in the classroom.
                 </p>
+                <a
+                  id="cardb1"
+                  href="#science/engineering-tutorial"
+                  class="btn btn-primary"
+                  >List</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center border-primary mb-resp">
+          <div class="col text-center center-block pb-2">
+            <div class="card card-height3 " id="card3">
               <div class="card-body">
-                <h3 class="text-primary">Be Faster</h3>
-                <p class="text-muted">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Eveniet, deserunt.
+                <h5 class="card-title">Programming / Technology</h5>
+                <p class="card-text">
+                  Basic programming projects for all ages that focus on
+                  different languages.
                 </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card text-center bg-primary text-white">
-              <div class="card-body">
-                <h3>Be Stronger</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Eveniet, deserunt.
-                </p>
+                <a
+                  id="cardb1"
+                  href="#programming-tutorial"
+                  class="btn btn-primary"
+                  >List</a
+                >
               </div>
             </div>
           </div>
@@ -124,8 +154,108 @@
       </div>
     </section>
 
+    <!----------------------------------------------------Electronics------------------------------------->
+
+    <section id="electronics-tutorial" class="my-2 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mb-4">
+              <h1 class=" pb-3">
+                Electronics
+              </h1>
+              <p class="lead">
+                Electronics may seem "difficult" at first, but once you get
+                started you will notice it is fun and easy. The following list
+                of tutorials is to teach you the fundamentals of electronics and
+                create your first electronic projects. Adapt these lessons and
+                tutorials as seem fit.
+              </p>
+            </div>
+
+            <!------------------------------Items--------------------------------------------------->
+
+            <div class="project-items text-left">
+              <ul>
+                <a href="electronics.html">
+                  <li>Getting Started - What is electronics?</li></a
+                >
+                <a href="soldering.html"><li>Soldering - Basics</li></a>
+                <li>Electricity - What is DC and AC</li>
+                <li>Switches - Open and Closed switches</li>
+                <li>Resistors</li>
+                <li>Capacitors</li>
+                <li>Inductors</li>
+                <li>Diodes</li>
+                <li>Transistors</li>
+                <li>IC - Intergrated Circuit</li>
+
+                <li>Arduino</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---*----------------------------------------------Science / Engineering-------------------------------->
+
+    <section id="science/engineering-tutorial" class="my-2 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mb-4">
+              <h1 class=" pb-3">
+                Science / Engineering
+              </h1>
+              <p class="lead">
+                Engineers use different fields of studies such as physics,
+                chemistry and mathematics etc. to find possible solutions for
+                problems. Scientist are the ones who will create theoretical
+                theories that will be implemented by engineers. The following
+                list is a various of projects/tutorials that focus on
+                engineering and science.
+              </p>
+            </div>
+
+            <!------------------------------Items--------------------------------------------------->
+
+            <div class="project-items"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---*----------------------------------------------Programming / Technology-------------------------------->
+    <section id="programming-tutorial" class="my-2 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mb-4">
+              <h1 class=" pb-3">
+                Programming / Technology
+              </h1>
+              <p class="lead">
+                Programming is more accessible to students of all ages then
+                ever, and there is million of reasons why all students should
+                start from a young age and learn to code. Coding will help
+                students think in a more creative way, collaborate and share.
+                Coding is one of the fundamentals building blocks for makerspace
+                and can be incorporated in any project. Coding is part of our
+                day to day lives.
+              </p>
+            </div>
+
+            <!------------------------------Items--------------------------------------------------->
+
+            <div class="project-items"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--Footer-->
-    <footer id="main-footer" class="py-5  text-black">
+    <footer id="footerindex" class="py-5  text-white">
       <div class="container">
         <row class="text-center">
           <div class="col-md-6 m-auto">

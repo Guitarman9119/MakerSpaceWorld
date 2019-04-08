@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 2px 2px 5px $primary;
+  box-shadow: 2px 2px 5px purple;
   opacity: 0.9;
   background: #fff;
   color: black;
@@ -26,10 +26,10 @@ body {
 #showcase {
   position: relative;
 
-  background: url("/img/drawing.svg");
+  background: purple;
   width: 100%;
 
-  min-height: 330px;
+  min-height: 230px;
   border-bottom: none;
   /*
   .primary-overlay:before {
@@ -52,6 +52,10 @@ body {
   color: white;
 
   background: #1e798b;
+}
+
+#footerindex {
+  background: purple;
 }
 
 .info-header {
@@ -93,27 +97,16 @@ body {
   #showcase {
     position: relative;
 
-    background: url("/img/drawing2.svg");
-    height: 530px;
+    margin-top: 10px;
+
+    background: purple;
+    height: 550px;
 
     border-bottom: none;
 
     h1 {
       font-size: 3.5rem;
     }
-    /*
-    .primary-overlay:before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 150px;
-      background: url("/img/wave.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-bottom: none;
-    }*/
   }
 
   .mb-resp {
@@ -138,6 +131,67 @@ body {
       border-color: red;
       height: 90%;
       width: 90%;
+    }
+  }
+
+  #about {
+    .info-header {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+    p {
+      //font-size: 1.1rem;
+
+      text-align: center;
+    }
+  }
+
+  #about2 {
+    .info-header {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+  }
+
+  ///////////////////////////////////////////About content/////////////////////////////////////
+  #about-content {
+    .info-header {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+  }
+
+  ////////////////////////////////////////////Coding//////////////////////////////////////////////
+  #showcase-coding {
+    position: relative;
+
+    margin-top: 10px;
+
+    background: purple;
+    height: 300px;
+
+    border-bottom: none;
+
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+
+  #showcase-scratch {
+    position: relative;
+
+    margin-top: 10px;
+
+    background: white;
+    min-height: 800px;
+
+    border-bottom: none;
+
+    h1 {
+      font-size: 3.2rem;
     }
   }
 }
@@ -289,6 +343,7 @@ body {
       margin-right: auto;
       height: 50%;
       width: 50%;
+      font-size: 
     }
 
     .card-height1 {
@@ -325,6 +380,77 @@ body {
       margin-left: auto;
       margin-right: auto;
       padding-top: 2px;
+    }
+  }
+}
+
+/////////////////////Coding////////////////////////////
+#showcase-coding {
+  position: relative;
+
+  margin-top: 10px;
+
+  background: purple;
+  min-height: 280px;
+  border-bottom: 1px #ddd solid;
+
+  p {
+    border-bottom: 1px black solid;
+  }
+}
+
+#showcase-scratch {
+  background: #dfdfdf;
+
+  p {
+    // border-bottom: 1px black solid;
+  }
+}
+
+#freecodecamp {
+  background: white;
+
+  p {
+    // border-bottom: 1px black solid;
+  }
+}
+
+#project-list {
+  .card-height1 {
+    height: 170px;
+    border-color: red;
+
+    .card-img-top {
+      height: 1px;
+    }
+  }
+
+  .card-text {
+    height: 80px;
+  }
+
+  .card-height2 {
+    height: 170px;
+    border-color: purple;
+
+    .card-img-top {
+      height: 1px;
+    }
+  }
+  .card-height3 {
+    height: 170px;
+    border-color: green;
+
+    .card-img-top {
+      height: 1px;
+    }
+  }
+  .card-height4 {
+    height: 500px;
+    border-color: green;
+
+    .card-img-top {
+      height: 250px;
     }
   }
 }

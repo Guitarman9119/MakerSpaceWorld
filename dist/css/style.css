@@ -2,7 +2,7 @@ body {
   margin-top: 92px; }
 
 .navbar {
-  box-shadow: 2px 2px 5px #1e798b;
+  box-shadow: 2px 2px 5px purple;
   opacity: 0.9;
   background: #fff;
   color: black; }
@@ -15,9 +15,9 @@ body {
 
 #showcase {
   position: relative;
-  background: url("/img/drawing.svg");
+  background: purple;
   width: 100%;
-  min-height: 330px;
+  min-height: 230px;
   border-bottom: none;
   /*
   .primary-overlay:before {
@@ -38,6 +38,9 @@ body {
   position: relative;
   color: white;
   background: #1e798b; }
+
+#footerindex {
+  background: purple; }
 
 .info-header {
   width: 70%;
@@ -67,22 +70,10 @@ body {
     padding-bottom: 150px; }
   #showcase {
     position: relative;
-    background: url("/img/drawing2.svg");
-    height: 530px;
-    border-bottom: none;
-    /*
-    .primary-overlay:before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 150px;
-      background: url("/img/wave.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-bottom: none;
-    }*/ }
+    margin-top: 10px;
+    background: purple;
+    height: 550px;
+    border-bottom: none; }
     #showcase h1 {
       font-size: 3.5rem; }
   .mb-resp {
@@ -98,7 +89,37 @@ body {
   #resources-list .card-img-top {
     border-color: red;
     height: 90%;
-    width: 90%; } }
+    width: 90%; }
+  #about .info-header {
+    padding: 0px;
+    margin: 0px;
+    width: 100%; }
+  #about p {
+    text-align: center; }
+  #about2 .info-header {
+    padding: 0px;
+    margin: 0px;
+    width: 100%; }
+  #about-content .info-header {
+    padding: 0px;
+    margin: 0px;
+    width: 100%; }
+  #showcase-coding {
+    position: relative;
+    margin-top: 10px;
+    background: purple;
+    height: 300px;
+    border-bottom: none; }
+    #showcase-coding h1 {
+      font-size: 2.2rem; }
+  #showcase-scratch {
+    position: relative;
+    margin-top: 10px;
+    background: white;
+    min-height: 800px;
+    border-bottom: none; }
+    #showcase-scratch h1 {
+      font-size: 3.2rem; } }
 
 #about-content {
   width: 100%;
@@ -226,3 +247,45 @@ body {
       margin-left: auto;
       margin-right: auto;
       padding-top: 2px; } }
+
+#showcase-coding {
+  position: relative;
+  margin-top: 10px;
+  background: purple;
+  min-height: 280px;
+  border-bottom: 1px #ddd solid; }
+  #showcase-coding p {
+    border-bottom: 1px black solid; }
+
+#showcase-scratch {
+  background: #dfdfdf; }
+
+#freecodecamp {
+  background: white; }
+
+#project-list .card-height1 {
+  height: 170px;
+  border-color: red; }
+  #project-list .card-height1 .card-img-top {
+    height: 1px; }
+
+#project-list .card-text {
+  height: 80px; }
+
+#project-list .card-height2 {
+  height: 170px;
+  border-color: purple; }
+  #project-list .card-height2 .card-img-top {
+    height: 1px; }
+
+#project-list .card-height3 {
+  height: 170px;
+  border-color: green; }
+  #project-list .card-height3 .card-img-top {
+    height: 1px; }
+
+#project-list .card-height4 {
+  height: 500px;
+  border-color: green; }
+  #project-list .card-height4 .card-img-top {
+    height: 250px; }
